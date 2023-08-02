@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@100;200;300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="images/old-cam.png" type="image/x-icon" />
+    <title>Watch This</title>
+  </head>
+  <body>
+    <div id="home-page">
+      <header class="fixed-top">
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/watchthis-logo.png"
+              alt="watchthis logo"
+              width="100"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Recursos</a>
+              </li>
+            </ul>
+            <a class="btn btn-warning ms-md-3" href="#">Download</a>
+          </div>
+        </nav>
+      </header>
+
+      <section id="home-section">
+        <div class="container">
+          <div class="row position-relative d-flex align-items-center">
+            <div id="app-description" class="col-md-6">
+              <h2>
+                Bem-vindo(a) ao <span>watchthis</span>, o seu destino definitivo
+                para explorar filmes e séries!
+              </h2>
+              <p>
+                Descubra novas histórias, crie suas listas personalizadas e
+                encontre suas produções favoritas. Navegue por um vasto
+                catálogo, obtenha informações detalhadas e saiba exatamente onde
+                assistir cada título. Prepare-se para uma experiência
+                cinematográfica sem igual!
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="images/app-design-fr.png" width="100%" />
+            </div>
+            <div
+              id="home-bg"
+              class="position-absolute top-0 end-50 bottom-0 start-0 z-n1"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="numbers">
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-3 numbers-data">
+          <p>Mais de</p>
+          <h4>10</h4>
+          <p>milhões de downloads</p>
+        </div>
+        <div class="col-md-3 numbers-data">
+          <p>Mais de</p>
+          <h4>50.000</h4>
+          <p>mil títulos no catálogo</p>
+        </div>
+        <div class="col-md-3 numbers-data">
+          <p>Disponível em mais de</p>
+          <h4>20</h4>
+          <p>países</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">Descubra o Universo Cinematográfico</h2>
+      <div class="container">
+        <div
+          id="carousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="carousel-image"
+                style="background-image: url('images/slider-bg1.png')"
+              ></div>
+              <div class="carousel-image-gradient"></div>
+              <div class="carousel-caption">
+                <p>
+                  Prepare-se para uma jornada emocionante pelo vasto universo de
+                  filmes e séries disponíveis no Watchthis. Aqui, você
+                  encontrará uma
+                  <span
+                    >infinidade de opções para todos os gostos e
+                    preferências</span
+                  >. De clássicos atemporais a lançamentos empolgantes, nosso
+                  catálogo diversificado é cuidadosamente selecionado para
+                  satisfazer até mesmo os cinéfilos mais exigentes.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="carousel-image"
+                style="background-image: url('images/slider-bg2.jpg')"
+              ></div>
+              <div class="carousel-image-gradient"></div>
+              <div class="carousel-caption">
+                <p>
+                  Explore as diferentes categorias e mergulhe em um mar de
+                  possibilidades cinematográficas. Navegue por
+                  <span
+                    >gêneros populares como ação, comédia, drama, romance,
+                    ficção científica, suspense e muito mais</span
+                  >. Desvende histórias épicas de aventuras, deixe-se levar por
+                  romances arrebatadores ou experimente a adrenalina de filmes
+                  de ação cheios de reviravoltas.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="carousel-image"
+                style="background-image: url('images/slider-bg3.jpg')"
+              ></div>
+              <div class="carousel-image-gradient"></div>
+              <div class="carousel-caption">
+                <p>
+                  Fique por dentro das tendências atuais enquanto você explora a
+                  seção de lançamentos mais recentes. Esteja entre os primeiros
+                  a descobrir as <span>produções mais quentes do momento</span>,
+                  desde os filmes de sucesso nas bilheterias até as séries que
+                  estão criando um verdadeiro frenesi nas telas. Atualizamos
+                  regularmente nosso catálogo para garantir que você esteja
+                  sempre atualizado com o que há de mais recente e emocionante
+                  no mundo do entretenimento.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="carousel-image"
+                style="background-image: url('images/slider-bg4.jpg')"
+              ></div>
+              <div class="carousel-image-gradient"></div>
+              <div class="carousel-caption">
+                <p>
+                  Não deixe de conferir nossos clássicos imperdíveis. Revisite
+                  <span>filmes que marcaram época</span>, reacenda a nostalgia e
+                  descubra os tesouros cinematográficos que resistiram ao teste
+                  do tempo. Permita-se maravilhar com obras-primas que
+                  transcendem gerações e ainda encantam espectadores até hoje.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <h2 class="section-title">Explore os recursos incríveis do Watchthis</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 p-0">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4 icon-col rounded">
+                  <i class="bi bi-collection"></i>
+                </div>
+                <div class="col-md-8 card-col">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Crie e gerencie listas personalizadas de filmes e séries:
+                    </h5>
+                    <p class="card-text">
+                      Organize seus títulos favoritos em listas personalizadas
+                      para facilitar o acompanhamento. Marque aqueles que você
+                      já assistiu, crie uma lista de desejos para futuras
+                      maratonas ou compartilhe suas recomendações com amigos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 p-0">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4 icon-col">
+                  <i class="bi bi-film"></i>
+                </div>
+                <div class="col-md-8 card-col">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Obtenha informações detalhadas sobre cada título:
+                    </h5>
+                    <p class="card-text">
+                      Descubra tudo sobre seus filmes e séries preferidos. Tenha
+                      acesso a sinopses envolventes, informações sobre o elenco
+                      e até mesmo leia avaliações de outros usuários para tomar
+                      decisões informadas sobre o que assistir em seguida.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 p-0">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4 icon-col">
+                  <i class="bi bi-cast"></i>
+                </div>
+                <div class="col-md-8 card-col">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Descubra plataformas de streaming:
+                    </h5>
+                    <p class="card-text">
+                      Nunca mais perca tempo procurando onde assistir seu
+                      conteúdo favorito. O Watchthis oferece informações
+                      atualizadas sobre as plataformas de streaming que
+                      disponibilizam cada título, permitindo que você encontre
+                      rapidamente onde ele está disponível para transmissão.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 p-0">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4 icon-col">
+                  <i class="bi bi-person-hearts"></i>
+                </div>
+                <div class="col-md-8 card-col">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Receba recomendações personalizadas:
+                    </h5>
+                    <p class="card-text">
+                      Deixe o Watchthis surpreendê-lo com recomendações feitas
+                      especialmente para você. Com base em suas preferências,
+                      histórico de visualização e avaliações anteriores, o
+                      aplicativo sugere filmes e séries que se alinham
+                      perfeitamente aos seus gostos e interesses.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 p-0">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4 icon-col">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <div class="col-md-8 card-col">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Sincronização em diferentes dispositivos:
+                    </h5>
+                    <p class="card-text">
+                      Acesse suas listas personalizadas e recomendações em
+                      qualquer lugar, a qualquer momento. A sincronização entre
+                      dispositivos permite que você tenha sua experiência
+                      cinematográfica perfeitamente integrada, seja em seu
+                      smartphone, tablet ou computador.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h2 class="section-title">
+        Mergulhe no Mundo do entretenimento agora mesmo!
+      </h2>
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <img src="images/old-cam.png" width="80%" />
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <p>
+                O Watchthis é uma plataforma dedicada a fornecer informações
+                completas e atualizadas sobre filmes e séries, juntamente com a
+                disponibilidade em plataformas de streaming. Nosso objetivo é
+                oferecer a melhor experiência para os amantes de cinema,
+                permitindo que eles descubram, organizem e desfrutem de seu
+                conteúdo favorito de forma simples e conveniente.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-btn-download">
+                <button>
+                  <i class="bi bi-google-play"></i>
+                </button>
+                <button>
+                  <i class="bi bi-apple"></i>
+                </button>
+                <button>
+                  <i class="bi bi-windows"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 copyright">
+            <p>© Érica Vanessa Hanemann. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
