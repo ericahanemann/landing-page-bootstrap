@@ -1,5 +1,3 @@
 # landing-page-bootstrap
 
-A simple landing page developed for the web programming subject. The goal was to apply the knowledge of Bootstrap acquired during our classes. You can check out the layout design below:
-
-![](src\assets\landing-page-bs.png)
+A simple landing page developed for the web programming subject. The goal was to apply the knowledge of Bootstrap acquired during our classes. 
